@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@400;500&family=Silkscreen&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-title:hover{
+    cursor: default;
+}
+
+.button{
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.btn-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
